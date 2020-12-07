@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="icon" type="image/jpg" href="snowmanico.jpg">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto+Slab:wght@500&display=swap"
+		rel="stylesheet">
+	<title>Снеговик</title>
+</head>
+
+<body>
+	<div class="modal">
+		<form action="">
+			<h3>Выбери режим</h3>
+			<button id="singleButton">Одиночная</button>
+			<button id="multiplayer">Мультиплеер</button>
+		</form>
+	</div>
+	<div class="modal2">
+		<form  action="">
+			<p>Введи любое слово</p>
+			<input id="addWordInput" type="text" name="">
+			<button id="addWord">Ввести</button>
+		</form>
+	</div>
+	<form>
+		<h1>Снеговик</h1>
+		<img id="img" src="snowman0.jpg">
+		<h2 id="cypher">*****</h2>
+		<h3 id="winAndLose"></h3>
+		<input id="userInput" type="text" maxlength="1" name="">
+		<div>
+			<button id="proverka">Проверить букву</button>
+			<button id="newGame">Новая игра</button>
+		</div>
+		<button id="modeButton">Выбор режима</button>
+		<p id="usedLetter">Использованые буквы: </p>
+	</form>
+	<script type="module" src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: url("bg.jpg");
+}
+h1,p,h2,h3{
+	font-family: 'Roboto Slab', serif;
+}
+form{margin:auto;
+width:550px;
+text-align: center;
+background: rgba(255,255,255,0.5);
+}
+button{
+	width:200px;
+	line-height: 30px;
+	margin: 10px;
+	background: indigo;
+	border:none;
+	border-radius: 10px;
+	box-shadow:10px 10px 10px rgba(0,0,0,0.5);
+	color:white;
+	font-family: 'Lora', serif;
+}
+img{
+	border-radius: 20px;
+	box-shadow:10px 10px 10px rgba(0,0,0,0.5);
+}
+#userInput{
+	width: 50px;
+	border:none;
+	line-height: 50px;
+	border-radius: 7px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Lora', serif;
+}
+
+.modal{
+	position:fixed;
+	backdrop-filter: blur(10px);
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.modal form{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+.modal2{
+	position:fixed;
+	backdrop-filter: blur(10px);
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.modal2 form{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+.modal2 input{
+	width: 150px;
+	border:none;
+	line-height: 40px;
+	border-radius: 7px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Lora', serif;
+	
+}
+#addWordInput{
+background: rgb(56, 106, 245);
+box-shadow:5px 5px 5px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
